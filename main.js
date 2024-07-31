@@ -1,4 +1,4 @@
-const numeroSenha = documentSelector('.parametro-senha__texto');
+const numeroSenha = document.getElementById('parametro-senha__texto');
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
